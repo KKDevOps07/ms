@@ -1,0 +1,26 @@
+---
+releases:
+
+  - name: mycart
+    chart: /root/ms/cart-microservice-nodejs/cart/
+    installed: true
+
+  - name: myshoes
+    chart: /root/ms/shoes-microservice-spring-boot/shoes/
+    installed: true
+
+  - name: myui 
+    chart: /root/ms/ui-web-app-reactjs/ui/
+    installed: true
+
+  - name: mywishlist
+    chart: /root/ms/wishlist-microservice-python/wishlist
+    installed: true
+
+  - name: myzuulapi 
+    chart: /root/ms/zuul-api-gateway/zuulapi 
+    installed: true
+
+  - name: myoffers
+    chart: /root/ms/offers-microservice-spring-boot/offers
+    installed: true
